@@ -1,0 +1,24 @@
+{
+  "name": "howlonguntiljavascriptbreaks",
+  "version": "1.0.0",
+  "description": "Displays time until the end of JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "browserify src.js -o dist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chestercharles/howlonguntiljavascriptbreaks.git"
+  },
+  "author": "Chester Carmer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chestercharles/howlonguntiljavascriptbreaks/issues"
+  },
+  "homepage": "https://github.com/chestercharles/howlonguntiljavascriptbreaks#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "how-long-between": "^1.0.2"
+  }
+}
