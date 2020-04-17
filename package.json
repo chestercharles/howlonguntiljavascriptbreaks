@@ -4,7 +4,7 @@
   "description": "Displays time until the end of JavaScript",
   "main": "index.js",
   "scripts": {
-    "bundle": "browserify src.js -o dist.js"
+    "bundle": "browserify index.js -o dist.js"
   },
   "repository": {
     "type": "git",
