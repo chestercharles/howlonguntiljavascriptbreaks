@@ -4,7 +4,8 @@
   "description": "Displays time until the end of JavaScript",
   "main": "index.js",
   "scripts": {
-    "bundle": "browserify index.js -o dist.js"
+    "bundle": "browserify src/index.js -o dist/dist.js",
+    "build": "npm run bundle && cp src/index.html dist/index.html && cp src/index.css dist/index.css && cp src/favicon.ico dist/favicon.ico"
   },
   "repository": {
     "type": "git",

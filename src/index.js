@@ -1,4 +1,7 @@
 (function () {
+  function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
   var howLongBetween = require("how-long-between");
   var yearEl = document.getElementById("years");
   var monthEl = document.getElementById("months");
@@ -7,7 +10,7 @@
   var minEl = document.getElementById("minutes");
   var secEl = document.getElementById("seconds");
   function updateUI(time) {
-    yearEl.innerText = time.years;
+    yearEl.innerText = numberWithCommas(time.years);
     monthEl.innerText = time.months;
     dayEl.innerText = time.days;
     hourEl.innerText = time.hours;
