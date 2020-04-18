@@ -140,6 +140,7 @@ h1.header {
 }
 ul.countdown {
   font-size: 30px;
+  padding: 18px;
 }
 ul.countdown > li {
   padding: 5px 0px 5px 30px;
